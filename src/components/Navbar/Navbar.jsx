@@ -2,9 +2,9 @@ import React from "react";
 
 import logoImg from "../../assets/images/logo192.png";
 
-import "./styles.css"
+import "./styles.css";
 
-class Navbar extends React.Component {
+export class Navbar extends React.Component {
   render() {
     return (
       <header>
@@ -29,11 +29,7 @@ class Navbar extends React.Component {
             </li>
           </ul>
         </nav>
-
       </header>
-    )
+    );
   }
 }
-
-
-export default Navbar;
